@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.nv {
+    background-image: url(imgA.avif);
+    width: auto;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nv p {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+
+}
+
+.nv nav {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding-inline: 70px;
+    color: white;
+    font-size: 1 rem;
+
+}
+.nv nav .right  {
+
+    display: flex;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    
+}
+
+.nv nav .right a{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 7px 20px;
+    transition: .2s linear;
+}
+
+.nv nav .right a:hover{
+    color: #f88e3d;
+    transform: scale(1.2, 1.2);
+}
+
+nav p {
+    margin-inline: 11px;
+    margin-top: 20px;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.nv .logo {
+    text-align: center;
+}
+
+.nv .logo img {
+    width: 45%;
+    margin-top: 60px;
+}
+
+.nv .inp {
+    text-align: center;
+}
+.nv .text {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.nv .inp input {
+    width: 500px;
+    height: 15px;
+    padding: 22px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.card {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card .crd img {
+    width: 320px;
+    height: 220px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+.coll .text {
+    margin-left: 35px;
+    margin-top: 64px;
+    padding: 25px;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.coll .rest {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.rest img {
+    width: 23%;
+    border-radius: 8px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+.app {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9e5e9;
+    margin-top: 20px;
+}
+
+.app h2 {
+    text-align: center;
+    /* margin-top: 200px; */
+    font-size: 1.5rem;
+}
+
+.app img {
+    width: 35%;
+}
+
+.btn h2 {
+    margin-left: 45px;
+    margin-top: 45px;
+    padding: 15px;
+
+}
+.btn button {
+    width: 1250px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 11px;
+    margin-left: 135px;
+    margin-right: 100px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* ---------------------------------------------------------------------------------- */
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #ebe7e7;
+    margin-top: 45px;
+    padding: 40px;
+}
+
+.footer .list h2 {
+
+    font-size: 1.2rem;
+}
+/* ------------------------------------------------------------------------------ */
+
+.copyrightsection{
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding-block: 10px;
+}
